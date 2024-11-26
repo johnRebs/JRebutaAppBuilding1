@@ -1,0 +1,89 @@
+* {
+  font-family: "DM Serif Text", serif;
+}
+
+.nav-item a {
+  color:  #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #007bff; /* Hover color (Bootstrap's primary color) */
+}
+
+/* Hero Section */
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+#hero .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+/* Carousel */
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#productCarousel {
+  box-shadow: 0 4px 8px rgba(73, 73, 73, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #464646; 
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+}
+
+.text-beside-carousel {
+  text-shadow: 2px 2px 5px rgba(119, 119, 119, 0.8);
+}
+
+/* Featured Products Section */
+.featured-products {
+  background-color: #767676;
+}
+
+.featured-products h2 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.featured-products p {
+  color: #ffffff;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+  font-size: 1rem;
+}
+
